@@ -14,6 +14,8 @@ services:
       - 19132:19132/udp
     volumes:
       - ./data:/data
-      - ./plugins:/plugins
+      - ./development_behavior_packs:/development_behavior_packs
+      - ./development_resource_packs:/development_resource_packs
+      - ./development_skin_packs:/development_skin_packs
     stdin_open: true
     tty: true

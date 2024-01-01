@@ -15,8 +15,7 @@ services:
       - 19132:19132/udp
     volumes:
       - ./data:/data
-      - ./development_behavior_packs:/development_behavior_packs
-      - ./development_resource_packs:/development_resource_packs
-      - ./development_skin_packs:/development_skin_packs
+      - ./development_behavior_packs/my_first_pack_BP:/development_behavior_packs/my_first_pack_BP
+      - ./development_resource_packs/my_first_pack_RP:/development_resource_packs/my_first_pack_RP
     stdin_open: true
     tty: true

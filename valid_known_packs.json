@@ -294,5 +294,17 @@
 		"path" : "behavior_packs/experimental_cameras",
 		"uuid" : "05112080-727b-4ed4-98d4-b099fc75f2be",
 		"version" : "0.0.1"
+	},
+	{
+		"file_system" : "RawPath",
+		"path" : "development_behavior_packs/my_first_pack_BP",
+		"uuid" : "9ec8af93-4b38-429f-a4bd-7e277a50d238",
+		"version" : "0.0.1"
+	},
+	{
+		"file_system" : "RawPath",
+		"path" : "development_resource_packs/my_first_pack_RP",
+		"uuid" : "9d6dad89-6e29-46ba-83d5-490a4901caef",
+		"version" : "0.0.1"
 	}
 ]

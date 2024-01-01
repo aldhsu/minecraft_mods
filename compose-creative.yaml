@@ -17,5 +17,7 @@ services:
       - ./data:/data
       - ./development_behavior_packs/my_first_pack_BP:/development_behavior_packs/my_first_pack_BP
       - ./development_resource_packs/my_first_pack_RP:/development_resource_packs/my_first_pack_RP
+      - ./world_behavior_packs.json:/data/worlds/Bedrock level/world_behavior_packs.json
+      - ./world_resource_packs.json:/data/worlds/Bedrock level/world_resource_packs.json
     stdin_open: true
     tty: true
